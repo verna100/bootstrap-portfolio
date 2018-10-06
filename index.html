@@ -3,53 +3,70 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio | Your Name</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Vernaliz Gonzalez</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <link rel="stylesheet" media="(max-width: 640px)" href="max-640px.css">
+<link rel="stylesheet" media="(min-width: 640px)" href="min-640px.css">
+<link rel="stylesheet" media="(orientation: portrait)" href="portrait.css">
+<link rel="stylesheet" media="(orientation: landscape)" href="landscape.css">
+<style>
+  @media (min-width: 500px) and (max-width: 600px) {
+    h1 {
+      color: fuchsia;
+    }
+  }
+</style>
 </head>
 
 <body>
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
+  
+      <header id="masthead">
+          <nav class="navbar-expand-md navbar-dark bg-info">
+            <a class="navbar-brand"></a>
+      
+            <ul class= "navbar-nav">
+                <li class="nav-text">
+                  <h1>Vernaliz Gonzalez</h1>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><button type="button" class="btn btn-primary">About</button></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html"><button type="button" class="btn btn-success">Portfolio</button></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><button type="button" class="btn btn-warning">Contact</button></a>
+                  </li>
+            </ul>
+          </nav>
+      
+        </header> 
+      
+      <!-- <a href="index.html" id="logo">Vernaliz Gonzalez</a>
       <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+        <a href="index.html"><button type="button" class="btn btn-primary">About</button></a>
+        <a href="portfolio.html"><button type="button" class="btn btn-success">Portfolio</button></a>
+        <a href="contact.html"><button type="button" class="btn btn-warning">Contact</button></a>
       </nav>
-    </div>
-  </header>
-
+    </div> -->
+  
   <div id="main-container" class="container">
     <section class="main-section">
-      <h1>Portfolio</h1>
+      <h1 class="about">About Me</h1>
+      <img src="https://featuredcreature.com/wp-content/uploads/2012/10/beauty_exotica22.jpg" class="auth-image" alt="Verna">
 
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
-
-        <h3>Word Guess</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
-      </div>
+      <p class="text-primary">It's me! My name is Verna. I had a cat named Mishu growing up and every cat after that was also named Mishu. I have 7 siblings and 5 half siblings. My favorite color is purple. My biggest headache is learning to code! I work in NYC and am from the Bronx. I have a succulent that I've miraculously kept alive for 2 years. I also love to say Ciao instead of goodbye. This is me in a nutshell. Hope you enjoy my website.</p>
+      <div class="card">
+          <div class="card-body">
+              <p class="text-danger">Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
+          </div>
+        </div>
+    
+      <p class="text-white-50 bg-dark">Beef ribs cupidatat magna, hamburger strip steak cupim duis ut ullamco filet mignon prosciutto short loin.  Tenderloin ea kielbasa in ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 
     </section>
 
@@ -57,9 +74,10 @@
 
   <footer>
     <div class="container">
-      Copyright &copy;
+      Copyright &copy; 
     </div>
   </footer>
 </body>
 
 </html>
+
